@@ -1,0 +1,18 @@
+{
+  "task_id": "task_f234236c",
+  "username": "b.o.b.jacob",
+  "platform": "instagram",
+  "action_types": [
+    "likes"
+  ],
+  "intensity": 1,
+  "target_count": 0,
+  "completed_count": 0,
+  "status": "paused",
+  "status_message": "\u2705 Boost completed! Generating report...",
+  "extraction_phase": false,
+  "extraction_progress": 100,
+  "created_at": "2026-01-12T11:55:11.908750",
+  "updated_at": "2026-01-12T11:57:03.757579",
+  "actions": []
+}

@@ -1,0 +1,21 @@
+# IG Growth Hub - Dependencies
+
+# Web Framework
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# Browser Automation
+playwright>=1.40.0
+
+# Environment & Config
+python-dotenv>=1.0.0
+
+# Database
+sqlalchemy>=2.0.0
+
+# CLI & Display
+click>=8.1.0
+rich>=13.0.0
+
+# Utilities
+requests>=2.31.0

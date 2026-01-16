@@ -1,0 +1,579 @@
+{
+  "task_id": "task_cf98d8b6",
+  "username": "b.o.b.jacob",
+  "platform": "instagram",
+  "action_types": [
+    "likes"
+  ],
+  "intensity": 1,
+  "target_count": 10,
+  "completed_count": 17,
+  "status": "completed",
+  "status_message": "\u2705 Boost completed! Generating report...",
+  "extraction_phase": false,
+  "extraction_progress": 100,
+  "created_at": "2026-01-15T20:28:08.815685",
+  "updated_at": "2026-01-15T20:48:59.644337",
+  "actions": [
+    {
+      "timestamp": "2026-01-15T20:33:15.776812",
+      "action_type": "views",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/COatjI6gO1B/",
+      "target_username": "airatichmouratovmusic",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-15T20:33:20.376895",
+      "action_type": "likes",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/COatjI6gO1B/",
+      "target_username": "airatichmouratovmusic",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-15T20:34:14.480569",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DSfh9xykiFQ/",
+      "target_username": "amanhoramusic",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (34000)"
+    },
+    {
+      "timestamp": "2026-01-15T20:34:25.549673",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DS5hCLzkyM7/",
+      "target_username": "mrkyreos",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (8966)"
+    },
+    {
+      "timestamp": "2026-01-15T20:34:36.228356",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/8ETRwmA6al/",
+      "target_username": "reelsmusic_ir",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (33000)"
+    },
+    {
+      "timestamp": "2026-01-15T20:34:57.289777",
+      "action_type": "views",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/DJd58cFPK-n/",
+      "target_username": "itsanusharao",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-15T20:34:59.377093",
+      "action_type": "likes",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/DJd58cFPK-n/",
+      "target_username": "itsanusharao",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-15T20:35:50.482820",
+      "action_type": "views",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/COatjI6gO1B/",
+      "target_username": "airatichmouratovmusic",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-15T20:35:52.517157",
+      "action_type": "likes",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/COatjI6gO1B/",
+      "target_username": "airatichmouratovmusic",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-15T20:36:44.699149",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/CStozSWDMWl/",
+      "target_username": "manishkharage",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (549000)"
+    },
+    {
+      "timestamp": "2026-01-15T20:36:55.105290",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DDyXdEQMHvO/",
+      "target_username": "producingmusic",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (94000)"
+    },
+    {
+      "timestamp": "2026-01-15T20:37:00.128652",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DQeiF5FEXSO/",
+      "target_username": "marcin.music",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many likes (13785)"
+    },
+    {
+      "timestamp": "2026-01-15T20:37:09.319454",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DBNwR5hBPjb/",
+      "target_username": "mohan.krishanflute",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (10000)"
+    },
+    {
+      "timestamp": "2026-01-15T20:37:22.228758",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DN64hGWCEv7/",
+      "target_username": "dreamworlds101",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (38000)"
+    },
+    {
+      "timestamp": "2026-01-15T20:37:31.479357",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/CjpQ0wogNR3/",
+      "target_username": "mtvasia",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (204000)"
+    },
+    {
+      "timestamp": "2026-01-15T20:37:40.306360",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/Bg20vlFFvkf/",
+      "target_username": "elite_gift_genclik",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (177000)"
+    },
+    {
+      "timestamp": "2026-01-15T20:37:51.648747",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/CvSBoVArRaz/",
+      "target_username": "salmankoroth",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (79000)"
+    },
+    {
+      "timestamp": "2026-01-15T20:38:02.483745",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DTgaIqXEYuZ/",
+      "target_username": "amandajansonmusic",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (13000)"
+    },
+    {
+      "timestamp": "2026-01-15T20:38:22.856792",
+      "action_type": "views",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/DGA1PznP53G/",
+      "target_username": "sarthak21.music",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-15T20:38:24.937165",
+      "action_type": "likes",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/DGA1PznP53G/",
+      "target_username": "sarthak21.music",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-15T20:39:13.136633",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/Caw-6z2In2C/",
+      "target_username": "ahillyeah",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (654000)"
+    },
+    {
+      "timestamp": "2026-01-15T20:39:23.920438",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/CnU3D3IJDi8/",
+      "target_username": "nitindubeymusic",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (43000)"
+    },
+    {
+      "timestamp": "2026-01-15T20:39:34.266971",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DE7sniyNTCY/",
+      "target_username": "onwaveo",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (358000)"
+    },
+    {
+      "timestamp": "2026-01-15T20:39:44.944018",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DGiUbhBz2y-/",
+      "target_username": "arpitjordan.music",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (392000)"
+    },
+    {
+      "timestamp": "2026-01-15T20:39:55.974175",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/C9GD-j3NDEB/",
+      "target_username": "thesongdetective",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (1000000)"
+    },
+    {
+      "timestamp": "2026-01-15T20:40:06.260811",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DShxmW0kz0U/",
+      "target_username": "__sreekutty_s",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (48000)"
+    },
+    {
+      "timestamp": "2026-01-15T20:40:11.451150",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DSfHSoqCJ-0/",
+      "target_username": "feelcrew_official",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many likes (3475)"
+    },
+    {
+      "timestamp": "2026-01-15T20:40:32.760314",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DQbCY2yjYxf/",
+      "target_username": "itsme_alamkrutha",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-15T20:41:17.287952",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DSskXxDk3uY/",
+      "target_username": "_chord.nation",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (28000)"
+    },
+    {
+      "timestamp": "2026-01-15T20:41:23.400506",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DJGgP9uhXmi/",
+      "target_username": "kalakaaars",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many likes (3371)"
+    },
+    {
+      "timestamp": "2026-01-15T20:41:32.503154",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DTdEi0tDFXj/",
+      "target_username": "rvlovlesslive",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (11000)"
+    },
+    {
+      "timestamp": "2026-01-15T20:41:43.460346",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DTICpyAgYhj/",
+      "target_username": "ryan_music_studio",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (30000)"
+    },
+    {
+      "timestamp": "2026-01-15T20:42:06.275684",
+      "action_type": "views",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/DQMHNGgkvA3/",
+      "target_username": "imrajjaiss",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-15T20:42:12.059981",
+      "action_type": "likes",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/DQMHNGgkvA3/",
+      "target_username": "imrajjaiss",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-15T20:42:59.342056",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DNnfbIWTYNw/",
+      "target_username": "sangeet_kalakars2",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many likes (1313)"
+    },
+    {
+      "timestamp": "2026-01-15T20:43:09.610665",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DIHfdBjTikS/",
+      "target_username": "rourkeheath",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (771000)"
+    },
+    {
+      "timestamp": "2026-01-15T20:43:19.225113",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DTiD_QWEZ3L/",
+      "target_username": "nitimusicofficial",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (76000)"
+    },
+    {
+      "timestamp": "2026-01-15T20:43:38.393286",
+      "action_type": "views",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/CSEPpKeHkYD/",
+      "target_username": "live_music.india_",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-15T20:43:42.612773",
+      "action_type": "likes",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/CSEPpKeHkYD/",
+      "target_username": "live_music.india_",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-15T20:44:45.627159",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DTiNLSSDCgp/",
+      "target_username": "stitchesakaal",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-15T20:45:26.862217",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DE7sniyNTCY/",
+      "target_username": "onwaveo",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (358000)"
+    },
+    {
+      "timestamp": "2026-01-15T20:45:37.072364",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DSNBV94AR1k/",
+      "target_username": "12am_songs",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (344000)"
+    },
+    {
+      "timestamp": "2026-01-15T20:45:46.069243",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DSFUqXIDMM0/",
+      "target_username": "utkarshwankhedeofficial_",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (103000)"
+    },
+    {
+      "timestamp": "2026-01-15T20:45:58.484844",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DTSbbRBCP4I/",
+      "target_username": "musiconofficial",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (456000)"
+    },
+    {
+      "timestamp": "2026-01-15T20:46:09.103267",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/CGXc7behUSA/",
+      "target_username": "alliesherlock",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (3000000)"
+    },
+    {
+      "timestamp": "2026-01-15T20:46:19.657041",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DS5iTFjkmg2/",
+      "target_username": "letsbeginguitar",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (311000)"
+    },
+    {
+      "timestamp": "2026-01-15T20:46:31.559840",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DTFpg5uEo7c/",
+      "target_username": "amangadwalia1",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (17000)"
+    },
+    {
+      "timestamp": "2026-01-15T20:46:41.832327",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/C8wzDYTRZSI/",
+      "target_username": "charlieputh",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (20000000)"
+    },
+    {
+      "timestamp": "2026-01-15T20:46:51.360217",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/C-FlE4LIw6n/",
+      "target_username": "ahillyeah",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (654000)"
+    },
+    {
+      "timestamp": "2026-01-15T20:47:00.615005",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DSxG-KukyK4/",
+      "target_username": "pranav_bvs",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (12000)"
+    },
+    {
+      "timestamp": "2026-01-15T20:47:20.841874",
+      "action_type": "views",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/C8fFkgho6ex/",
+      "target_username": "taraana.band",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-15T20:47:25.049895",
+      "action_type": "likes",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/C8fFkgho6ex/",
+      "target_username": "taraana.band",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-15T20:48:18.755444",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DSskXxDk3uY/",
+      "target_username": "_chord.nation",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (28000)"
+    },
+    {
+      "timestamp": "2026-01-15T20:48:28.576598",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DGgWuSQvwB1/",
+      "target_username": "kevinqvdang",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (746000)"
+    },
+    {
+      "timestamp": "2026-01-15T20:48:38.773120",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/C8OVlnwx0w_/",
+      "target_username": "thinkmusicofficial",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (2000000)"
+    },
+    {
+      "timestamp": "2026-01-15T20:48:59.601282",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DTc3h6qiXMi/",
+      "target_username": "reyindhapakkam",
+      "content": "",
+      "status": "success",
+      "reason": null
+    }
+  ]
+}

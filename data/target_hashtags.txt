@@ -1,0 +1,15 @@
+# IG Growth Hub - Target Hashtags Configuration
+# 
+# Edit this file anytime to change which hashtags the bot targets.
+# The bot will discover posts from these hashtags and interact with them.
+# 
+# FORMAT: One hashtag per line (without the # symbol)
+# 
+# TIPS:
+# - Use hashtags related to your niche for best results
+# - Mix popular (1M+ posts) with smaller (10K-100K posts) hashtags
+# - Update regularly based on trending topics in your niche
+
+# General Creator Tags
+food
+music

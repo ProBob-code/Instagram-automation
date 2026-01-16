@@ -1,0 +1,114 @@
+{
+  "task_id": "task_f3521fe3",
+  "username": "b.o.b.jacob",
+  "platform": "instagram",
+  "status": "completed",
+  "action_types": [
+    "likes"
+  ],
+  "intensity": 1,
+  "created_at": "2026-01-11T18:18:52.275956",
+  "completed_at": "2026-01-11T18:25:47.778554",
+  "total_actions": 5,
+  "target_count": 9,
+  "actions": [
+    {
+      "timestamp": "2026-01-11T18:20:28.596018",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DSRtdt6EiEg/",
+      "target_username": "zostel",
+      "content": "",
+      "status": "skipped",
+      "reason": "User too popular (937000 followers)"
+    },
+    {
+      "timestamp": "2026-01-11T18:20:34.298478",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DSeNMRhkg2n/",
+      "target_username": null,
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-11T18:21:36.286277",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DQJU_37iQ1Q/",
+      "target_username": null,
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-11T18:22:12.984396",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DB6fY48Tnxa/",
+      "target_username": null,
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-11T18:23:46.385248",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/CelsNxZJPJZ/",
+      "target_username": "_malabareez",
+      "content": "",
+      "status": "skipped",
+      "reason": "User too popular (2871 followers)"
+    },
+    {
+      "timestamp": "2026-01-11T18:23:54.268355",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DK73NlqR3IQ/",
+      "target_username": null,
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-11T18:24:30.524124",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DRe4yrfE7yK/",
+      "target_username": "sujith",
+      "content": "",
+      "status": "skipped",
+      "reason": "User too popular (73000 followers)"
+    },
+    {
+      "timestamp": "2026-01-11T18:24:40.000146",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DFlDNfAzfWZ/",
+      "target_username": "twopassportss",
+      "content": "",
+      "status": "skipped",
+      "reason": "User too popular (63000 followers)"
+    },
+    {
+      "timestamp": "2026-01-11T18:24:47.547796",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/Ce7LVUOgmuM/",
+      "target_username": null,
+      "content": "",
+      "status": "success",
+      "reason": null
+    }
+  ],
+  "summary": {
+    "total_actions": 9,
+    "successful": 5,
+    "by_type": {
+      "likes": 9
+    },
+    "duration_seconds": 415.495622
+  }
+}

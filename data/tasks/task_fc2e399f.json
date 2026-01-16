@@ -1,0 +1,1049 @@
+{
+  "task_id": "task_fc2e399f",
+  "username": "b.o.b.jacob",
+  "platform": "instagram",
+  "action_types": [
+    "likes"
+  ],
+  "intensity": 1,
+  "target_count": 10,
+  "completed_count": 14,
+  "status": "completed",
+  "status_message": "\u2705 Boost completed! Generating report...",
+  "extraction_phase": false,
+  "extraction_progress": 100,
+  "created_at": "2026-01-15T00:55:22.633173",
+  "updated_at": "2026-01-15T08:00:34.198560",
+  "actions": [
+    {
+      "timestamp": "2026-01-15T00:57:42.851149",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DIWk7WhONxM/",
+      "target_username": "hunt4shredz",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many likes (1905)"
+    },
+    {
+      "timestamp": "2026-01-15T00:57:56.247590",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DEu1j9ktULd/",
+      "target_username": "thesaltychilli",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (42000)"
+    },
+    {
+      "timestamp": "2026-01-15T00:58:13.223820",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DSIbCJqjPdQ/",
+      "target_username": "chasoldboy",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (65000)"
+    },
+    {
+      "timestamp": "2026-01-15T00:58:33.026324",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DPOUnCLkiHm/",
+      "target_username": "nids.lid",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (150000)"
+    },
+    {
+      "timestamp": "2026-01-15T00:58:42.231808",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DM5y3HpMu4g/",
+      "target_username": "hinalys",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (72000)"
+    },
+    {
+      "timestamp": "2026-01-15T00:58:52.860268",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DGJCwOFoWdb/",
+      "target_username": "the_greedy_ginger",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (29000)"
+    },
+    {
+      "timestamp": "2026-01-15T00:59:02.102868",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DTQqWfaipQ8/",
+      "target_username": "whatinaloves",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (11000)"
+    },
+    {
+      "timestamp": "2026-01-15T00:59:11.758306",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DTZpzsLkqGU/",
+      "target_username": "the_foodie_mommie",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (32000)"
+    },
+    {
+      "timestamp": "2026-01-15T00:59:21.600729",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DJPGu2vvYj0/",
+      "target_username": "that.foodie.girl__",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (902000)"
+    },
+    {
+      "timestamp": "2026-01-15T00:59:37.880715",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DPKJAibCSU8/",
+      "target_username": "healthymoodsf",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (1000000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:00:02.498987",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DQdvPZ1E0s8/",
+      "target_username": "the_spice_of_life05",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-15T01:00:52.353339",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DMQQYqxSJ6Z/",
+      "target_username": "kimberlykingsellers",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (198000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:01:02.218051",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DMU-HJcIttx/",
+      "target_username": "chefsmell_",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (50000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:01:11.607411",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DEUGCZLIKNq/",
+      "target_username": "spoonsofdilli",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (2000000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:01:31.695241",
+      "action_type": "views",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/DTCRJY2E7de/",
+      "target_username": "brunchdairieees",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-15T01:01:35.844586",
+      "action_type": "likes",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/DTCRJY2E7de/",
+      "target_username": "brunchdairieees",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-15T01:02:37.299680",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DSaqSW_EQuO/",
+      "target_username": "terrencebakes",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (37000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:02:48.102640",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DTgKwoOinzm/",
+      "target_username": "jaleoenlacocina",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (36000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:02:57.959370",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DQJ1SpKE1Ft/",
+      "target_username": "thefoodie.afsana",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (103000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:03:07.194038",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DCrF6QIP73J/",
+      "target_username": "cook_with_inshaa",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (590000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:03:17.662005",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/CmtI2gpo0ar/",
+      "target_username": "ashishvidyarthi1",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (2000000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:03:26.530311",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DNnYa5eBBIj/",
+      "target_username": "chennai_taste_of_tunes",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (8164)"
+    },
+    {
+      "timestamp": "2026-01-15T01:03:36.275302",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DQTRZHkCIet/",
+      "target_username": "foodology_mumbai",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (11000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:03:45.717505",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/C7MegBeIq5I/",
+      "target_username": "osmanogullarikebapcisi",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (315000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:03:57.917528",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DMc1PI8y4tP/",
+      "target_username": "akashfooddoc",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (25000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:04:08.128342",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DTf752OE7Mt/",
+      "target_username": "paulreyesphoto",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (12000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:04:21.239398",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DTNA4x2DBE5/",
+      "target_username": "florianeskitchen",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (16000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:04:31.184770",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/C_GSR_pJcTj/",
+      "target_username": "thefoodietakesflight",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (925000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:04:40.703492",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/Cj0HqZMDGfd/",
+      "target_username": "wanderessfoodie",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (311000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:05:02.769449",
+      "action_type": "views",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/DSMsloDCSWr/",
+      "target_username": "creamcentrekanpur",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-15T01:05:07.741230",
+      "action_type": "likes",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/DSMsloDCSWr/",
+      "target_username": "creamcentrekanpur",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-15T01:05:53.310517",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DO8RhncEQ9l/",
+      "target_username": "briandsumitophoto",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (5480)"
+    },
+    {
+      "timestamp": "2026-01-15T01:05:58.590320",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DRYsQmkE6-c/",
+      "target_username": "rida.tharanaa",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many likes (1779)"
+    },
+    {
+      "timestamp": "2026-01-15T01:06:09.245663",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DQj3T0XDZwP/",
+      "target_username": "thesaltychilli",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (42000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:06:18.869017",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DOMfbPOCdi2/",
+      "target_username": "healthymoodsf",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (1000000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:06:28.480831",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DDRwPvHIK5n/",
+      "target_username": "chatorelaunde",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (122000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:06:37.759504",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DMiqek8umIw/",
+      "target_username": "motekcafe",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (122000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:06:46.305929",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DRaBSspDHvm/",
+      "target_username": "chasoldboy",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (65000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:06:55.698784",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DPTyuoNkZOv/",
+      "target_username": "globaledible",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (145000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:07:14.100273",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DSXDVb4CoCN/",
+      "target_username": "b0nappletit",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-15T01:07:58.636131",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DRfZwwcCjTq/",
+      "target_username": "saweeeties",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (22000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:08:08.769633",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DPvArh9iBrL/",
+      "target_username": "foodieshivam7",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (127000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:08:19.390589",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DRmAbNSiGv_/",
+      "target_username": "foodie_gujarati11",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (608000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:08:29.317378",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DEPt2rEPqxR/",
+      "target_username": "memes.panti_",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (84000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:08:33.998037",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DQonzvWkhQ4/",
+      "target_username": "trocals.india",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many likes (1603)"
+    },
+    {
+      "timestamp": "2026-01-15T01:08:43.571598",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DRPbJrEiTdY/",
+      "target_username": "thefoodietakesflight",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (925000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:08:54.105092",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DPt70qNCA4h/",
+      "target_username": "bitta_banging",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (244000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:09:04.082562",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DOjf-uZDFZw/",
+      "target_username": "chefstroy",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (76000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:09:13.248433",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DTfKJJFE0hs/",
+      "target_username": "enjoythebiitee",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (18000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:09:22.753574",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/CeBeM5isp_T/",
+      "target_username": "hyderabadiruchulu_official",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (248000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:09:32.313975",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DLoUmc9xC9a/",
+      "target_username": "globaledible",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (145000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:09:42.825409",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DS0SDPKkQP7/",
+      "target_username": "mouthattack",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (304000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:09:52.385336",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DK47wanI-Tv/",
+      "target_username": "fooduice",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (549000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:10:00.855025",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DN8I8n_iFho/",
+      "target_username": "pashto_restaurant",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (8202)"
+    },
+    {
+      "timestamp": "2026-01-15T01:10:09.622918",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DN5p7uHEbNk/",
+      "target_username": "sactattooedfooddude",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (127000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:10:19.562175",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DSW-rkZEhGN/",
+      "target_username": "thefoodie.alvia",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (2000000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:10:29.799759",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/C_GO4csIyim/",
+      "target_username": "thesaltychilli",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (42000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:10:40.887782",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/CiohNUYJrYV/",
+      "target_username": "cookdtv",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (2000000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:10:50.549350",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DDt5pmpT2ug/",
+      "target_username": "_nibbly_",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (130000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:10:59.648928",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DSJHWfmAQ3n/",
+      "target_username": "globaledible",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (145000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:11:04.293270",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DN-4n8lieCZ/",
+      "target_username": "viji_moo",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many likes (1257)"
+    },
+    {
+      "timestamp": "2026-01-15T01:11:14.239245",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DQxo_DVicYD/",
+      "target_username": "figsandfizz",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (173000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:11:24.004432",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DJtRasBIMIO/",
+      "target_username": "chefstroy",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (76000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:11:33.590253",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/Cvq_WOIMTwI/",
+      "target_username": "chieffoodieofficer",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (593000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:11:43.608872",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DQvhtnLk7Ms/",
+      "target_username": "keralaruchi2015",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (77000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:12:02.813450",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DSXkqohgaAX/",
+      "target_username": "taralpawar7",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-15T01:12:48.588798",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DIMNTKIJ74e/",
+      "target_username": "nea_arentzen",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (121000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:18:20.027747",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/C_n9hCjoief/",
+      "target_username": "fresh_fit_food",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (597000)"
+    },
+    {
+      "timestamp": "2026-01-15T01:29:24.035403",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DOq5MhXkc-Z/",
+      "target_username": "chilipeppermadness",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (56000)"
+    },
+    {
+      "timestamp": "2026-01-15T06:32:41.997115",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DSppoPqkxgA/",
+      "target_username": "traveller_foodies",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (8053)"
+    },
+    {
+      "timestamp": "2026-01-15T06:32:51.272603",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DA_cuj5NW3T/",
+      "target_username": "la_pignolata_guinness_taormina",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (50000)"
+    },
+    {
+      "timestamp": "2026-01-15T06:33:13.523628",
+      "action_type": "views",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/DTBAKIIgZU1/",
+      "target_username": "xxl.foodie",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-15T06:33:17.726324",
+      "action_type": "likes",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/DTBAKIIgZU1/",
+      "target_username": "xxl.foodie",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-15T06:34:04.965565",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DPd7aqukrEz/",
+      "target_username": "thefoodie.alvia",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (2000000)"
+    },
+    {
+      "timestamp": "2026-01-15T06:34:25.348291",
+      "action_type": "views",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/DSoeBL6E53w/",
+      "target_username": "brunchdairieees",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-15T06:34:29.554839",
+      "action_type": "likes",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/DSoeBL6E53w/",
+      "target_username": "brunchdairieees",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-15T06:35:22.436688",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DDoMNvVTJVC/",
+      "target_username": "chefvinnyshukla",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (405000)"
+    },
+    {
+      "timestamp": "2026-01-15T06:35:32.203075",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DSPd715Ak1D/",
+      "target_username": "sherrysoni.wav",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (314000)"
+    },
+    {
+      "timestamp": "2026-01-15T06:35:42.120575",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DSSe5gjk8Mi/",
+      "target_username": "lezzet.evreni",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (100000)"
+    },
+    {
+      "timestamp": "2026-01-15T06:35:51.226917",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DR7I1KQDAP7/",
+      "target_username": "bangalore_food_girl",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (60000)"
+    },
+    {
+      "timestamp": "2026-01-15T06:36:00.755055",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DSE0y6Lki_C/",
+      "target_username": "me_boo_bu",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (286000)"
+    },
+    {
+      "timestamp": "2026-01-15T06:36:19.055953",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DTf4PkdgeUH/",
+      "target_username": "_laboni_mita_",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-15T06:37:05.874698",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DPJn5zKjSdk/",
+      "target_username": "thesaltychilli",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (42000)"
+    },
+    {
+      "timestamp": "2026-01-15T06:37:14.861516",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DR9KEhPjSul/",
+      "target_username": "chefpresentation2.0_",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (20000)"
+    },
+    {
+      "timestamp": "2026-01-15T06:37:23.875099",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DDElKk2STI4/",
+      "target_username": "thefoodie.alvia",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (2000000)"
+    },
+    {
+      "timestamp": "2026-01-15T06:37:28.850332",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DQOGztzid8H/",
+      "target_username": "aathirasethumadhavan",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many likes (1131)"
+    },
+    {
+      "timestamp": "2026-01-15T06:37:38.801752",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DTfv4rNkriq/",
+      "target_username": "lifeloveandsugar",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (260000)"
+    },
+    {
+      "timestamp": "2026-01-15T06:37:48.679142",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/C_XZ7BYSg6Z/",
+      "target_username": "nids.lid",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (150000)"
+    },
+    {
+      "timestamp": "2026-01-15T06:44:34.427002",
+      "action_type": "views",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/DMiLPVDoV8o/",
+      "target_username": "shackburger.hagen",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-15T07:57:45.911126",
+      "action_type": "likes",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/DMiLPVDoV8o/",
+      "target_username": "shackburger.hagen",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-15T07:58:37.654974",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/C13wZJIImtB/",
+      "target_username": "diningwithdhoot",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (546000)"
+    },
+    {
+      "timestamp": "2026-01-15T07:58:47.822701",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DSP0PwniP0S/",
+      "target_username": "_nada_dl__",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (92000)"
+    },
+    {
+      "timestamp": "2026-01-15T07:58:58.261829",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DRBQQqlkRRH/",
+      "target_username": "hammerhead_ind",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (20000)"
+    },
+    {
+      "timestamp": "2026-01-15T07:59:07.591814",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DNFYO69MqyK/",
+      "target_username": "nids.lid",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (150000)"
+    },
+    {
+      "timestamp": "2026-01-15T07:59:17.337942",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DOGsotFjI5h/",
+      "target_username": "luxuryofplates",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (64000)"
+    },
+    {
+      "timestamp": "2026-01-15T07:59:26.484893",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DSYmoOMEvam/",
+      "target_username": "hammerhead_ind",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (20000)"
+    },
+    {
+      "timestamp": "2026-01-15T07:59:36.342342",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DTaBXHFCJIE/",
+      "target_username": "recepti_instag",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (506000)"
+    },
+    {
+      "timestamp": "2026-01-15T07:59:45.672553",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DRxdKctCoc8/",
+      "target_username": "whatinaloves",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (11000)"
+    },
+    {
+      "timestamp": "2026-01-15T07:59:55.927131",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/C9HMdSpotaQ/",
+      "target_username": "macaron_gal",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (499000)"
+    },
+    {
+      "timestamp": "2026-01-15T08:00:06.023321",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DQ7N0S_jvyB/",
+      "target_username": "klburgers",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (334000)"
+    },
+    {
+      "timestamp": "2026-01-15T08:00:15.579084",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DTH2Ac1E9ac/",
+      "target_username": "sumana_shenoy80",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (14000)"
+    },
+    {
+      "timestamp": "2026-01-15T08:00:24.539029",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DSargOQgd-n/",
+      "target_username": "foodbaby.bklyn",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (11000)"
+    },
+    {
+      "timestamp": "2026-01-15T08:00:34.149490",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DTfu4U3isOa/",
+      "target_username": "divya.kitchen_holic",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too many followers (8909)"
+    }
+  ]
+}

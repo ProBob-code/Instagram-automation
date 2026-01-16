@@ -1,0 +1,59 @@
+{
+  "task_id": "task_ffd0c1b3",
+  "username": "b.o.b.jacob",
+  "platform": "instagram",
+  "action_types": [
+    "likes"
+  ],
+  "intensity": 1,
+  "target_count": 5,
+  "completed_count": 3,
+  "status": "completed",
+  "status_message": "\u2705 Boost completed! Generating report...",
+  "extraction_phase": false,
+  "extraction_progress": 100,
+  "created_at": "2026-01-11T16:43:08.192833",
+  "updated_at": "2026-01-11T16:50:26.584234",
+  "actions": [
+    {
+      "timestamp": "2026-01-11T16:46:18.837936",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DOEYBO6kgz7/",
+      "target_username": null,
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-11T16:47:57.147215",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DIbbwUWpTsq/",
+      "target_username": "martinguitar",
+      "content": "",
+      "status": "skipped",
+      "reason": "User too popular (748000 followers)"
+    },
+    {
+      "timestamp": "2026-01-11T16:48:21.045919",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DTQFZoyEsMn/",
+      "target_username": "vmvivek_24",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-11T16:49:31.820017",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DTXBFwAEa7z/",
+      "target_username": null,
+      "content": "",
+      "status": "success",
+      "reason": null
+    }
+  ]
+}

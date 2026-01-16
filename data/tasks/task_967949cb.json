@@ -1,0 +1,49 @@
+{
+  "task_id": "task_967949cb",
+  "username": "b.o.b.jacob",
+  "platform": "instagram",
+  "action_types": [
+    "likes"
+  ],
+  "intensity": 1,
+  "target_count": 24,
+  "completed_count": 0,
+  "status": "failed",
+  "status_message": "Checking post 24 by @None...",
+  "extraction_phase": false,
+  "extraction_progress": 100,
+  "created_at": "2026-01-12T18:20:07.887295",
+  "updated_at": "2026-01-12T18:25:07.263374",
+  "actions": [
+    {
+      "timestamp": "2026-01-12T18:23:14.265874",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DTXBFwAEa7z/",
+      "target_username": null,
+      "content": "",
+      "status": "skipped",
+      "reason": "Already liked/Cannot like"
+    },
+    {
+      "timestamp": "2026-01-12T18:24:05.040023",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DQ8l0ftkoPo/",
+      "target_username": "rohanpreetsingh",
+      "content": "",
+      "status": "skipped",
+      "reason": "User too popular (4000000 followers)"
+    },
+    {
+      "timestamp": "2026-01-12T18:24:14.277293",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DTFJd4mjJHO/",
+      "target_username": "sonytvofficial",
+      "content": "",
+      "status": "skipped",
+      "reason": "User too popular (5000000 followers)"
+    }
+  ]
+}

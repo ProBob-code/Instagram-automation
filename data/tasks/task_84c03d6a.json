@@ -1,0 +1,15 @@
+{
+  "task_id": "task_84c03d6a",
+  "username": "b.o.b.jacob",
+  "platform": "instagram",
+  "action_types": [
+    "likes"
+  ],
+  "intensity": 1,
+  "target_count": 15,
+  "completed_count": 0,
+  "status": "completed",
+  "created_at": "2026-01-08T18:44:49.090621",
+  "updated_at": "2026-01-08T18:45:04.469926",
+  "actions": []
+}

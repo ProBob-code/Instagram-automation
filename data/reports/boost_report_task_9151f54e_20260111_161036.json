@@ -1,0 +1,94 @@
+{
+  "task_id": "task_9151f54e",
+  "username": "b.o.b.jacob",
+  "platform": "instagram",
+  "status": "completed",
+  "action_types": [
+    "likes"
+  ],
+  "intensity": 1,
+  "created_at": "2026-01-11T16:08:11.471819",
+  "completed_at": "2026-01-11T16:10:36.511993",
+  "total_actions": 0,
+  "target_count": 7,
+  "actions": [
+    {
+      "timestamp": "2026-01-11T16:09:36.132360",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DJQ68pCCKPG/",
+      "target_username": "ashamaluevmusic",
+      "content": "",
+      "status": "skipped",
+      "reason": "User too popular (18000 followers)"
+    },
+    {
+      "timestamp": "2026-01-11T16:09:46.002077",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/C4g76wPrQAr/",
+      "target_username": "alexabarruet",
+      "content": "",
+      "status": "skipped",
+      "reason": "User too popular (132000 followers)"
+    },
+    {
+      "timestamp": "2026-01-11T16:09:56.923243",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DIbbwUWpTsq/",
+      "target_username": "itstapasya",
+      "content": "",
+      "status": "skipped",
+      "reason": "User too popular (36000 followers)"
+    },
+    {
+      "timestamp": "2026-01-11T16:10:08.060302",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DTQFZoyEsMn/",
+      "target_username": "tanmayg_music",
+      "content": "",
+      "status": "skipped",
+      "reason": "User too popular (4134 followers)"
+    },
+    {
+      "timestamp": "2026-01-11T16:10:18.717054",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DBNwR5hBPjb/",
+      "target_username": "mohan.krishanflute",
+      "content": "",
+      "status": "skipped",
+      "reason": "User too popular (10000 followers)"
+    },
+    {
+      "timestamp": "2026-01-11T16:10:29.574570",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DTXBFwAEa7z/",
+      "target_username": "premrogor",
+      "content": "",
+      "status": "skipped",
+      "reason": "User too popular (122000 followers)"
+    },
+    {
+      "timestamp": "2026-01-11T16:10:36.474280",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DSTwUtpAKKD/",
+      "target_username": "archivehome_",
+      "content": "",
+      "status": "skipped",
+      "reason": "Too popular (9498 likes)"
+    }
+  ],
+  "summary": {
+    "total_actions": 7,
+    "successful": 0,
+    "by_type": {
+      "likes": 7
+    },
+    "duration_seconds": 145.002535
+  }
+}

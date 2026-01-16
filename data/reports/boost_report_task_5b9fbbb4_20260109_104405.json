@@ -1,0 +1,96 @@
+{
+  "task_id": "task_5b9fbbb4",
+  "username": "b.o.b.jacob",
+  "platform": "instagram",
+  "status": "completed",
+  "action_types": [
+    "likes"
+  ],
+  "intensity": 1,
+  "created_at": "2026-01-09T10:31:27.876647",
+  "completed_at": "2026-01-09T10:44:05.655302",
+  "total_actions": 8,
+  "target_count": 8,
+  "actions": [
+    {
+      "timestamp": "2026-01-09T10:34:17.128304",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DEPt2rEPqxR/",
+      "target_username": "",
+      "content": "",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-01-09T10:35:35.429024",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DQHW2CMCEMy/",
+      "target_username": "",
+      "content": "",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-01-09T10:36:45.041319",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DQ7mNX4DE4I/",
+      "target_username": "",
+      "content": "",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-01-09T10:38:07.728403",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DSSR_ZyifyN/",
+      "target_username": "",
+      "content": "",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-01-09T10:38:48.548035",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DS-BT9ljeoC/",
+      "target_username": "",
+      "content": "",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-01-09T10:40:16.801071",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DJQ68pCCKPG/",
+      "target_username": "",
+      "content": "",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-01-09T10:41:36.391977",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/C92Pa6PyrEJ/",
+      "target_username": "",
+      "content": "",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-01-09T10:42:54.706819",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DEN1fIzyEwq/",
+      "target_username": "",
+      "content": "",
+      "status": "success"
+    }
+  ],
+  "summary": {
+    "total_actions": 8,
+    "successful": 8,
+    "by_type": {
+      "likes": 8
+    },
+    "duration_seconds": 757.770088
+  }
+}

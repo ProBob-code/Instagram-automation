@@ -1,0 +1,324 @@
+{
+  "task_id": "task_ef8c4e82",
+  "username": "b.o.b.jacob",
+  "platform": "instagram",
+  "status": "completed",
+  "action_types": [
+    "likes"
+  ],
+  "intensity": 1,
+  "created_at": "2026-01-13T23:42:44.571939",
+  "completed_at": "2026-01-14T00:00:55.770784",
+  "total_actions": 30,
+  "target_count": 30,
+  "actions": [
+    {
+      "timestamp": "2026-01-13T23:44:45.340834",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DJQ68pCCKPG/",
+      "target_username": "unknown",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-13T23:46:37.048538",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DSskXxDk3uY/",
+      "target_username": "unknown",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-13T23:46:58.949375",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DTTHjCqEbA_/",
+      "target_username": "unknown",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-13T23:47:17.283310",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DTUvOqGgQDr/",
+      "target_username": "unknown",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-13T23:47:37.030125",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DR9zHq_knqK/",
+      "target_username": "unknown",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-13T23:48:01.275451",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DRxBjFWCMCk/",
+      "target_username": "unknown",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-13T23:48:24.206240",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DQ-YuG2E8sy/",
+      "target_username": "unknown",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-13T23:48:44.587918",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DTKc9joimLn/",
+      "target_username": "unknown",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-13T23:49:04.573390",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/C3u4xFXv-cq/",
+      "target_username": "unknown",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-13T23:49:25.949624",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DTFJd4mjJHO/",
+      "target_username": "unknown",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-13T23:49:45.457050",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DSvlHF8CCsH/",
+      "target_username": "unknown",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-13T23:50:08.188101",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DQWE43bExRE/",
+      "target_username": "unknown",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-13T23:50:30.101773",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DRf53dJlR_w/",
+      "target_username": "unknown",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-13T23:50:52.641019",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DS5rZ89FKua/",
+      "target_username": "unknown",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-13T23:51:13.408800",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DRTmZlBEgbo/",
+      "target_username": "unknown",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-13T23:51:36.567819",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DSTwUtpAKKD/",
+      "target_username": "unknown",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-13T23:52:10.037258",
+      "action_type": "likes",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/DQ_tiuCiO47/",
+      "target_username": "",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-13T23:52:43.697840",
+      "action_type": "likes",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/DQZLJhrjAqi/",
+      "target_username": "",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-13T23:53:26.933949",
+      "action_type": "likes",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/DKhTQACNJld/",
+      "target_username": "",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-13T23:54:07.300061",
+      "action_type": "likes",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/DNnfl6Eh1zP/",
+      "target_username": "",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-13T23:54:58.206864",
+      "action_type": "likes",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/DSfHSoqCJ-0/",
+      "target_username": "",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-13T23:55:30.786963",
+      "action_type": "likes",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/C-FlE4LIw6n/",
+      "target_username": "",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-13T23:56:03.369136",
+      "action_type": "likes",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/DP07SBZAbmd/",
+      "target_username": "",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-13T23:56:43.174549",
+      "action_type": "likes",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/CuzLDp8BDLb/",
+      "target_username": "",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-13T23:57:14.863170",
+      "action_type": "likes",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/DRIuZeFCgdj/",
+      "target_username": "",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-13T23:58:06.158491",
+      "action_type": "likes",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/DRRsOtyTPry/",
+      "target_username": "",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-13T23:58:44.051058",
+      "action_type": "likes",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/DL2aXZLIKwe/",
+      "target_username": "",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-13T23:59:24.713467",
+      "action_type": "likes",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/DOL6hCykaU8/",
+      "target_username": "",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-13T23:59:56.129844",
+      "action_type": "likes",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/C6A4f2gyf2k/",
+      "target_username": "",
+      "content": "",
+      "status": "success",
+      "reason": null
+    },
+    {
+      "timestamp": "2026-01-14T00:00:36.144992",
+      "action_type": "likes",
+      "target_type": "reel",
+      "target_url": "https://www.instagram.com/p/DPMJ__OCmyD/",
+      "target_username": "",
+      "content": "",
+      "status": "success",
+      "reason": null
+    }
+  ],
+  "summary": {
+    "total_actions": 30,
+    "successful": 30,
+    "by_type": {
+      "likes": 30
+    },
+    "duration_seconds": 1091.19105
+  }
+}

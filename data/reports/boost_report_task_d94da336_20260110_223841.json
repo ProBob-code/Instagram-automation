@@ -1,0 +1,78 @@
+{
+  "task_id": "task_d94da336",
+  "username": "b.o.b.jacob",
+  "platform": "instagram",
+  "status": "completed",
+  "action_types": [
+    "likes"
+  ],
+  "intensity": 1,
+  "created_at": "2026-01-10T22:24:40.955564",
+  "completed_at": "2026-01-10T22:38:41.211447",
+  "total_actions": 6,
+  "target_count": 6,
+  "actions": [
+    {
+      "timestamp": "2026-01-10T22:26:21.062103",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DQUKl1tjGVt/",
+      "target_username": "frames.by.arun",
+      "content": "",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-01-10T22:30:11.227264",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DNk5wwpST76/",
+      "target_username": "pranav_sp",
+      "content": "",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-01-10T22:31:02.327199",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DK73NlqR3IQ/",
+      "target_username": "millieameliacreates",
+      "content": "",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-01-10T22:32:28.392576",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DLAZTMfIckp/",
+      "target_username": "thevisuallife_",
+      "content": "",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-01-10T22:34:05.676563",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DQUKl1tjGVt/",
+      "target_username": "frames.by.arun",
+      "content": "",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-01-10T22:34:56.866528",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DQ3W8P3jLlW/",
+      "target_username": "_abhishake_",
+      "content": "",
+      "status": "success"
+    }
+  ],
+  "summary": {
+    "total_actions": 6,
+    "successful": 6,
+    "by_type": {
+      "likes": 6
+    },
+    "duration_seconds": 840.238362
+  }
+}

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Details - IG Growth Hub</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            padding: 2rem;
+            background: var(--bg-primary);
+        }
+
+        .report-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: var(--bg-card);
+            border-radius: var(--radius-lg);
+            padding: 2rem;
+            border: 1px solid var(--glass-border);
+        }
+
+        .report-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--glass-border);
+        }
+
+        .report-header h1 {
+            font-size: 1.5rem;
+            color: var(--text-primary);
+        }
+
+        .back-link {
+            color: var(--accent-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .summary-item {
+            background: var(--bg-input);
+            padding: 1rem;
+            border-radius: var(--radius-md);
+            text-align: center;
+        }
+
+        .summary-item h3 {
+            font-size: 1.75rem;
+            margin: 0;
+            color: var(--text-primary);
+        }
+
+        .summary-item.success h3 {
+            color: var(--success);
+        }
+
+        .summary-item.warn h3 {
+            color: var(--warning);
+        }
+
+        .summary-item small {
+            color: var(--text-muted);
+            font-size: 0.8rem;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 3rem;
+            color: var(--text-muted);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="report-container">
+        <div class="report-header">
+            <h1>📊 Report Details</h1>
+            <a href="dashboard.html" class="back-link">← Back to Dashboard</a>
+        </div>
+
+        <div id="reportContent">
+            <div class="loading">Loading report...</div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = '/api';
+
+        async function loadReport() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const taskId = urlParams.get('task_id');
+
+            if (!taskId) {
+                document.getElementById('reportContent').innerHTML = '<p class="error-msg">No task ID provided</p>';
+                return;
+            }
+
+            try {
+                const response = await fetch(`${API_BASE}/boost/report/${taskId}`);
+                const report = await response.json();
+
+                if (!response.ok) throw new Error(report.error);
+
+                renderReport(report, taskId);
+            } catch (error) {
+                document.getElementById('reportContent').innerHTML = `<p class="error-msg">Failed to load report: ${error.message}</p>`;
+            }
+        }
+
+        function renderReport(report, taskId) {
+            const actions = report.actions || [];
+            const skips = actions.filter(a => a.status === 'skipped');
+            const success = actions.filter(a => a.status === 'success');
+
+            let durationText = 'N/A';
+            if (report.summary && report.summary.duration_seconds) {
+                const secs = Math.round(report.summary.duration_seconds);
+                const mins = Math.floor(secs / 60);
+                const remSecs = secs % 60;
+                durationText = mins > 0 ? `${mins}m ${remSecs}s` : `${secs}s`;
+            }
+
+            document.getElementById('reportContent').innerHTML = `
+                <div class="summary-grid">
+                    <div class="summary-item">
+                        <h3>${taskId.slice(-8)}</h3>
+                        <small>Task ID</small>
+                    </div>
+                    <div class="summary-item">
+                        <h3>${durationText}</h3>
+                        <small>Duration</small>
+                    </div>
+                    <div class="summary-item success">
+                        <h3>${success.length}</h3>
+                        <small>Successful</small>
+                    </div>
+                    <div class="summary-item warn">
+                        <h3>${skips.length}</h3>
+                        <small>Skipped</small>
+                    </div>
+                </div>
+
+                <h3 style="margin-bottom: 1rem; color: var(--text-primary);">📋 Activity Log</h3>
+                <div class="table-responsive">
+                    <table class="report-detail-table">
+                        <thead>
+                            <tr>
+                                <th>Time</th>
+                                <th>Username</th>
+                                <th>Post URL</th>
+                                <th>Post Type</th>
+                                <th>Action</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${actions.map(action => {
+                const isSkip = action.status === 'skipped';
+                const statusClass = isSkip ? 'text-warn' : 'text-success';
+                const statusText = isSkip ? `Skipped: ${action.reason || 'N/A'}` : '✓ Success';
+                const postUrl = action.target_url || '#';
+                // Determine post type from URL or target_type
+                let postType = action.target_type || 'post';
+                if (postUrl.includes('/reel/')) {
+                    postType = 'Reel';
+                } else if (postUrl.includes('/p/')) {
+                    postType = 'Image Post';
+                } else if (postType === 'reel') {
+                    postType = 'Reel';
+                } else {
+                    postType = 'Image Post';
+                }
+                return `
+                                    <tr class="${isSkip ? 'row-skipped' : ''}">
+                                        <td>${new Date(action.timestamp).toLocaleTimeString()}</td>
+                                        <td><strong>@${action.target_username || 'unknown'}</strong></td>
+                                        <td><a href="${postUrl}" target="_blank" class="post-link">${postUrl.replace('https://www.instagram.com', '')}</a></td>
+                                        <td>${postType}</td>
+                                        <td>${action.action_type}</td>
+                                        <td class="${statusClass}">${statusText}</td>
+                                    </tr>
+                                `;
+            }).join('')}
+                        </tbody>
+                    </table>
+                </div>
+
+                <div style="margin-top: 2rem; text-align: center; color: var(--text-muted); font-size: 0.85rem;">
+                    Report generated: ${new Date(report.created_at).toLocaleString()}
+                </div>
+            `;
+        }
+
+        // Load on page ready
+        loadReport();
+    </script>
+</body>
+
+</html>

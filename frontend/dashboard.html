@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IG Growth Hub - Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <div class="dashboard">
+        <div class="container">
+            <!-- Header -->
+            <header class="dashboard-header">
+                <div class="header-logo">
+                    <div class="header-logo-icon">🔥</div>
+                    <span class="header-logo-text">IG Growth Hub</span>
+                </div>
+                <div class="user-info">
+                    <div class="user-avatar" id="userAvatar">
+                        <img id="userAvatarImg" src="" alt=""
+                            style="display:none; width: 100%; height: 100%; border-radius: 50%; object-fit: cover;">
+                        <span id="userAvatarInitial">U</span>
+                    </div>
+                    <button class="btn-logout" id="logoutBtn">Logout</button>
+                </div>
+            </header>
+
+            <!-- Dashboard Grid -->
+            <div class="dashboard-grid">
+                <!-- Profile Sidebar -->
+                <aside class="profile-card glass-card">
+                    <div class="profile-icon" id="profilePicContainer">
+                        <img id="profilePicImg" src="" alt="Profile Picture"
+                            style="display:none; width: 100%; height: 100%; border-radius: 50%; object-fit: cover;">
+                        <span id="profilePicEmoji">👤</span>
+                    </div>
+                    <h2 class="profile-name" id="profileName">Loading...</h2>
+                    <p class="profile-username" id="profileUsername">@username</p>
+
+                    <div class="profile-stats">
+                        <div class="stat-item">
+                            <div class="stat-value" id="postsCount">-</div>
+                            <div class="stat-label">Posts</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value" id="followersCount">-</div>
+                            <div class="stat-label">Followers</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value" id="followingCount">-</div>
+                            <div class="stat-label">Following</div>
+                        </div>
+                    </div>
+
+                    <!-- Navigation Menu -->
+                    <nav class="sidebar-nav">
+                        <button class="nav-item active" data-view="dashboard">
+                            <span class="nav-icon">🏠</span> Dashboard
+                        </button>
+                        <button class="nav-item" data-view="analytics">
+                            <span class="nav-icon">📈</span> Analytics
+                        </button>
+                        <button class="nav-item" data-view="reports">
+                            <span class="nav-icon">📜</span> Reports
+                        </button>
+                    </nav>
+                </aside>
+
+                <!-- Main Content -->
+                <main class="main-content">
+
+                    <!-- VIEW: DASHBOARD (Default) -->
+                    <div id="view-dashboard" class="view-section active">
+                        <!-- Profile Score Card -->
+                        <section class="score-card glass-card">
+                            <div class="score-header">
+                                <h2 class="score-title">📊 Profile Score</h2>
+                                <span class="score-badge good" id="scoreBadge">Good</span>
+                            </div>
+
+                            <div class="score-ring-container">
+                                <!-- Score Ring -->
+                                <div class="score-ring">
+                                    <svg viewBox="0 0 180 180">
+                                        <defs>
+                                            <linearGradient id="scoreGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                                <stop offset="0%" stop-color="#833AB4" />
+                                                <stop offset="50%" stop-color="#E1306C" />
+                                                <stop offset="100%" stop-color="#F77737" />
+                                            </linearGradient>
+                                        </defs>
+                                        <circle class="score-ring-bg" cx="90" cy="90" r="80" />
+                                        <circle class="score-ring-progress" id="scoreRing" cx="90" cy="90" r="80" />
+                                    </svg>
+                                    <div class="score-value">
+                                        <div class="score-number" id="scoreNumber">--</div>
+                                        <div class="score-label">out of 100</div>
+                                    </div>
+                                </div>
+
+                                <!-- Score Breakdown -->
+                                <div class="score-breakdown" id="scoreBreakdown">
+                                    <div class="breakdown-item">
+                                        <div class="breakdown-icon pass">✓</div>
+                                        <span class="breakdown-text">Loading score breakdown...</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Suggestions Card -->
+                        <section class="suggestions-card glass-card">
+                            <h2 class="suggestions-title">💡 Suggested Improvements</h2>
+                            <div id="suggestionsContainer">
+                                <div class="suggestion-item">
+                                    <div class="suggestion-category">Loading</div>
+                                    <div class="suggestion-text">Analyzing your profile...</div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Growth Booster Card - SLEEK REDESIGN -->
+                        <section class="booster-card glass-card">
+                            <div class="booster-header">
+                                <h2 class="booster-title">🚀 Growth Booster</h2>
+                                <div class="status-badge" id="statusBadge">
+                                    <span class="status-dot ready"></span>
+                                    <span id="statusText">Ready</span>
+                                </div>
+                            </div>
+
+                            <!-- Quick Action Chips -->
+                            <div class="action-chips" id="actionChips">
+                                <button class="action-chip active" data-action="likes">
+                                    <span class="chip-icon">❤️</span>
+                                    <span class="chip-label">Likes</span>
+                                </button>
+                                <button class="action-chip" data-action="follows">
+                                    <span class="chip-icon">➕</span>
+                                    <span class="chip-label">Follows</span>
+                                </button>
+                                <button class="action-chip" data-action="comments">
+                                    <span class="chip-icon">💬</span>
+                                    <span class="chip-label">Comments</span>
+                                </button>
+                                <button class="action-chip" data-action="views">
+                                    <span class="chip-icon">👁️</span>
+                                    <span class="chip-label">Views</span>
+                                </button>
+                            </div>
+
+                            <!-- Keyword Input Section -->
+                            <div class="keyword-input-group">
+                                <label class="input-label">Target Keywords (Max 10)</label>
+                                <div class="keyword-input-wrapper">
+                                    <input type="text" id="keywordInput"
+                                        placeholder="Enter keyword and press Enter (e.g. food, travel)"
+                                        class="modern-input">
+                                    <button id="addKeywordBtn" class="add-keyword-btn">+</button>
+                                </div>
+                                <div class="keywords-list" id="keywordsList">
+                                    <!-- Keywords will appear here -->
+                                </div>
+                                <p class="input-hint">Enter words to search for top hashtags, or start with # for
+                                    specific
+                                    tags.</p>
+                            </div>
+
+                            <!-- Comment Templates (hidden by default) -->
+                            <div class="comment-input-group" id="commentTemplatesGroup" style="display:none;">
+                                <textarea id="commentTemplates" class="comment-textarea"
+                                    placeholder="Enter comments (one per line)..."></textarea>
+                            </div>
+
+                            <!-- Intensity Control -->
+                            <div class="intensity-control">
+                                <div class="intensity-header">
+                                    <span class="intensity-label">Intensity</span>
+                                    <span class="intensity-value" id="intensityValue">Conservative</span>
+                                </div>
+                                <input type="range" class="intensity-slider" id="intensitySlider" min="1" max="3"
+                                    value="1">
+                                <div class="intensity-scale">
+                                    <span>5 actions</span>
+                                    <span>10 actions</span>
+                                    <span>15 actions</span>
+                                </div>
+                            </div>
+
+                            <!-- Progress Section (hidden by default) -->
+                            <div class="progress-section" id="progressPanel" style="display:none;">
+                                <!-- Task Info -->
+                                <div class="task-info">
+                                    <span class="task-id">Task: <code id="taskIdDisplay">---</code></span>
+                                </div>
+
+                                <!-- Live Status Message -->
+                                <div class="status-message" id="statusMessageBox">
+                                    <span class="status-icon">⏳</span>
+                                    <span id="statusMessageText">Initializing...</span>
+                                </div>
+
+                                <div class="progress-info">
+                                    <span class="progress-label">Progress</span>
+                                    <span class="progress-percent" id="progressPercent">0%</span>
+                                </div>
+                                <div class="progress-track">
+                                    <div class="progress-fill" id="progressBar"></div>
+                                </div>
+                                <div class="progress-details">
+                                    <span id="progressCompleted">0</span> / <span id="progressTotal">0</span> actions
+                                </div>
+
+                                <!-- Live Feed -->
+                                <div class="live-feed" id="actionFeed">
+                                    <div class="feed-items" id="feedItems"></div>
+                                </div>
+                            </div>
+
+                            <!-- Action Button -->
+                            <div class="boost-action">
+                                <button class="boost-btn" id="boostBtn">
+                                    <span class="boost-btn-icon">⚡</span>
+                                    Start Boost
+                                </button>
+                                <button class="stop-btn" id="stopBtn" style="display:none;">
+                                    Stop
+                                </button>
+                            </div>
+
+                            <!-- Daily Limits Bar -->
+                            <div class="limits-bar">
+                                <span class="limits-label">Daily Limits:</span>
+                                <span class="limit-item">❤️ <span id="likesRemaining">300</span></span>
+                                <span class="limit-item">➕ <span id="followsRemaining">150</span></span>
+                                <span class="limit-item">💬 <span id="commentsRemaining">50</span></span>
+                                <span class="limit-item">👁️ <span id="viewsRemaining">500</span></span>
+                            </div>
+                        </section>
+                    </div>
+
+                    <!-- VIEW: ANALYTICS -->
+                    <div id="view-analytics" class="view-section" style="display:none;">
+                        <section class="glass-card full-width" style="padding: 1.25rem;">
+                            <h2 style="margin-bottom: 0.5rem;">📈 Growth Analytics</h2>
+
+                            <!-- 3-Column Stats Grid -->
+                            <div class="stats-row">
+                                <div class="stat-tile">
+                                    <div class="tile-val" id="totalActionsVal">--</div>
+                                    <div class="tile-lbl">Actions</div>
+                                </div>
+                                <div class="stat-tile green">
+                                    <div class="tile-val" id="totalSuccessVal">--</div>
+                                    <div class="tile-lbl">Success</div>
+                                </div>
+                                <div class="stat-tile">
+                                    <div class="tile-val" id="successRateVal">--</div>
+                                    <div class="tile-lbl">Rate</div>
+                                </div>
+                                <div class="stat-tile">
+                                    <div class="tile-val" id="daysActiveVal">--</div>
+                                    <div class="tile-lbl">Days</div>
+                                </div>
+                                <div class="stat-tile">
+                                    <div class="tile-val" id="dailyAvgVal">--</div>
+                                    <div class="tile-lbl">Daily Avg</div>
+                                </div>
+                                <div class="stat-tile accent">
+                                    <div class="tile-val" id="estGainVal">+--</div>
+                                    <div class="tile-lbl">Est. Gain</div>
+                                </div>
+                            </div>
+
+                            <!-- Prediction Banner -->
+                            <div class="pred-banner">
+                                <span>🔮</span>
+                                <span id="futureScopeText" style="flex:1;">Loading...</span>
+                                <small id="predInsight">3% follow-back</small>
+                            </div>
+
+                            <!-- Charts Side by Side -->
+                            <div class="charts-row">
+                                <div class="chart-tile">
+                                    <h4>📊 Activity</h4>
+                                    <div class="chart-area"><canvas id="activityChart"></canvas></div>
+                                </div>
+                                <div class="chart-tile small">
+                                    <h4>🎯 Impact</h4>
+                                    <div class="chart-area"><canvas id="impactChart"></canvas></div>
+                                </div>
+                            </div>
+
+                            <!-- Growth Tips (Creative Insights) -->
+                            <div class="tips-section">
+                                <h4>💡 Growth Tips</h4>
+                                <div id="growthTips" class="tips-container">
+                                    <div class="tip-card">🚀 Start boosting to unlock personalized tips!</div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <!-- VIEW: REPORTS -->
+                    <div id="view-reports" class="view-section" style="display:none;">
+                        <section class="glass-card full-width">
+                            <h2>📜 Detailed Reports</h2>
+                            <div class="reports-container" id="fullReportsList">
+                                <div class="loading-spinner">Loading reports...</div>
+                            </div>
+                        </section>
+                    </div>
+
+                </main>
+            </div>
+        </div>
+    </div>
+
+    <!-- Report Modal -->
+    <div class="modal" id="reportModal" style="display:none;">
+        <div class="modal-content glass-card">
+            <div class="modal-header">
+                <h3>📊 Boost Report</h3>
+                <button class="modal-close" id="closeReportModal">&times;</button>
+            </div>
+            <div class="modal-body" id="reportContent">
+                <!-- Report content will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Container -->
+    <div class="toast-container" id="toastContainer"></div>
+
+    <script src="js/app.js"></script>
+    <script src="js/dashboard.js"></script>
+</body>
+
+</html>

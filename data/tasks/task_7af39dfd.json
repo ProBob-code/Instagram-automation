@@ -1,0 +1,39 @@
+{
+  "task_id": "task_7af39dfd",
+  "username": "b.o.b.jacob",
+  "platform": "instagram",
+  "action_types": [
+    "likes"
+  ],
+  "intensity": 1,
+  "target_count": 25,
+  "completed_count": 0,
+  "status": "failed",
+  "status_message": "Checking post 25 by @None...",
+  "extraction_phase": false,
+  "extraction_progress": 100,
+  "created_at": "2026-01-13T12:05:12.434120",
+  "updated_at": "2026-01-13T12:11:22.244800",
+  "actions": [
+    {
+      "timestamp": "2026-01-13T12:07:48.652895",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/CkF0z6qtJCy/",
+      "target_username": "ipritamofficial",
+      "content": "",
+      "status": "skipped",
+      "reason": "User too popular (1000000 followers)"
+    },
+    {
+      "timestamp": "2026-01-13T12:10:25.683842",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DTFJd4mjJHO/",
+      "target_username": "sonytvofficial",
+      "content": "",
+      "status": "skipped",
+      "reason": "User too popular (5000000 followers)"
+    }
+  ]
+}

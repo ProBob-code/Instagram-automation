@@ -1,0 +1,70 @@
+{
+  "task_id": "task_7e9d852c",
+  "username": "b.o.b.jacob",
+  "platform": "instagram",
+  "action_types": [
+    "likes"
+  ],
+  "intensity": 1,
+  "target_count": 15,
+  "completed_count": 5,
+  "status": "paused",
+  "created_at": "2026-01-08T18:55:19.518342",
+  "updated_at": "2026-01-08T19:00:25.156407",
+  "actions": [
+    {
+      "timestamp": "2026-01-08T18:55:52.899697",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DSE0y6Lki_C/",
+      "target_username": "",
+      "content": "",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-01-08T18:56:38.637669",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DRc1OHhifzc/",
+      "target_username": "",
+      "content": "",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-01-08T18:57:39.438158",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DHMEgeAo4TE/",
+      "target_username": "",
+      "content": "",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-01-08T18:59:16.093830",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DQr2IgkCIP7/",
+      "target_username": "",
+      "content": "",
+      "status": "success"
+    },
+    {
+      "timestamp": "2026-01-08T19:00:25.156407",
+      "action_type": "likes",
+      "target_type": "post",
+      "target_url": "https://www.instagram.com/p/DMQQYqxSJ6Z/",
+      "target_username": "",
+      "content": "",
+      "status": "success"
+    }
+  ],
+  "summary": {
+    "total_actions": 4,
+    "successful": 4,
+    "failed": 0,
+    "by_type": {
+      "likes": 4
+    },
+    "duration_seconds": 279
+  }
+}
