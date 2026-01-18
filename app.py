@@ -24,6 +24,10 @@ from src.rate_limiter import get_rate_limiter
 app = Flask(__name__, static_folder='frontend', static_url_path='')
 CORS(app)
 
+# Load environment variables
+from dotenv import load_dotenv
+load_dotenv()
+
 # Global state
 active_sessions = {}
 boost_threads = {}
@@ -44,6 +48,20 @@ def run_async_in_thread(coro):
     
     future = executor.submit(run)
     return future.result(timeout=120)  # 2 minute timeout
+
+
+# ============================================
+# HEALTH CHECK FOR DOCKER/RAILWAY
+# ============================================
+
+@app.route('/health')
+def health_check():
+    """Health check endpoint for Docker/Railway deployment."""
+    return jsonify({
+        'status': 'healthy',
+        'service': 'ig-growth-hub',
+        'timestamp': datetime.utcnow().isoformat()
+    })
 
 
 # ============================================
@@ -1055,9 +1073,33 @@ def run_boost(username: str, platform: str, action_types: list, intensity: int, 
 # MAIN
 # ============================================
 
+def init_app():
+    """Initialize app with database and routes."""
+    # Initialize database
+    from src.database import init_db
+    init_db()
+    
+    # Register auth routes
+    from src.auth import register_auth_routes
+    register_auth_routes(app)
+    
+    # Register payment routes
+    from src.payments import register_payment_routes
+    register_payment_routes(app)
+    
+    print("[*] All routes registered successfully")
+
+
 if __name__ == '__main__':
     print("[*] IG Growth Hub - Starting server...")
-    print("[*] Open http://localhost:5000 in your browser")
+    
+    # Initialize app
+    init_app()
+    
+    # Get port from environment (Railway sets this)
+    port = int(os.getenv('PORT', 5000))
+    
+    print(f"[*] Open http://localhost:{port} in your browser")
     print("[*] A Chromium browser will open when you log in")
     # Disable reloader to prevent issues with async
-    app.run(host='0.0.0.0', port=5000, debug=False, threaded=True)
+    app.run(host='0.0.0.0', port=port, debug=False, threaded=True)
