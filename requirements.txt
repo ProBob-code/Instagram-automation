@@ -37,3 +37,8 @@ requests>=2.31.0
 aiohttp>=3.9.0
 httpx>=0.26.0
 
+# Desktop App Build
+waitress>=2.1.0
+pyinstaller>=6.0.0
+
+
