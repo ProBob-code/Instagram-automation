@@ -805,9 +805,17 @@ def run_boost(username: str, platform: str, action_types: list, intensity: int, 
                     # Search and get top 2 hashtags by post count
                     top_hashtags = await explorer.search_hashtags(keyword, limit=2)
                     
+                    # FALLBACK: If search fails, directly navigate to hashtag page
                     if not top_hashtags:
-                        print(f"[Boost] No hashtags found for keyword: {keyword}")
-                        continue
+                        print(f"[Boost] Search failed for '{keyword}', using direct navigation fallback...")
+                        # Create a synthetic hashtag entry for direct navigation
+                        clean_keyword = keyword.replace('#', '').replace(' ', '').lower()
+                        top_hashtags = [{
+                            'name': clean_keyword,
+                            'post_count': 0,
+                            'url': f'https://www.instagram.com/explore/tags/{clean_keyword}/'
+                        }]
+                        print(f"[Boost] Using direct URL: /explore/tags/{clean_keyword}/")
                     
                     print(f"[Boost] Top hashtags for '{keyword}': {[h['name'] for h in top_hashtags]}")
                     

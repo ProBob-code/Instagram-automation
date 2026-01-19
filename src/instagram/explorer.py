@@ -59,32 +59,73 @@ class InstagramExplorer:
                 
                 # Click on the Search link in sidebar to open search panel
                 print(f"[Explorer] Opening search panel...")
-                search_link = await page.query_selector('a[href*="search"], svg[aria-label="Search"]')
-                if search_link:
-                    parent = await search_link.evaluate_handle('el => el.closest("a") || el.parentElement')
-                    if parent:
-                        await parent.click()
-                    else:
-                        await search_link.click()
-                    await asyncio.sleep(gaussian_delay(1.5, 0.3, 1, 2))
+                search_opened = False
+                
+                # Method 1: Try clicking the search icon in sidebar (multiple selectors)
+                search_selectors = [
+                    'svg[aria-label="Search"]',
+                    'a[href="/explore/"]',
+                    'span:text("Search")',
+                    '[role="link"]:has(svg[aria-label="Search"])',
+                    'div[role="navigation"] a:nth-child(2)',  # Often 2nd nav item
+                ]
+                
+                for sel in search_selectors:
+                    try:
+                        search_btn = await page.query_selector(sel)
+                        if search_btn:
+                            # Get clickable parent if it's an SVG
+                            if 'svg' in sel:
+                                parent = await search_btn.evaluate_handle('el => el.closest("a") || el.closest("div[role=\\"button\\"]") || el.parentElement.parentElement')
+                                if parent:
+                                    await parent.click()
+                                else:
+                                    await search_btn.click()
+                            else:
+                                await search_btn.click()
+                            await asyncio.sleep(gaussian_delay(1.5, 0.3, 1, 2))
+                            search_opened = True
+                            print(f"[Explorer] Clicked search with: {sel}")
+                            break
+                    except Exception as e:
+                        continue
+                
+                # Method 2: Use keyboard shortcut (Ctrl+K or just focus with /)
+                if not search_opened:
+                    try:
+                        print("[Explorer] Trying keyboard shortcut for search...")
+                        await page.keyboard.press('/')
+                        await asyncio.sleep(1)
+                        search_opened = True
+                    except:
+                        pass
                 
                 # Find the search input
                 print(f"[Explorer] Looking for search input...")
                 search_input = None
                 
-                # Try multiple selectors
-                selectors = [
+                # Try multiple selectors for search input
+                input_selectors = [
                     'input[placeholder="Search"]',
                     'input[aria-label="Search input"]',
-                    f'xpath={self.SEARCH_INPUT_XPATH}'
+                    'input[type="text"][placeholder*="earch"]',
+                    'input[autocomplete="off"]',
+                    f'xpath={self.SEARCH_INPUT_XPATH}',
+                    'div[role="dialog"] input',
+                    'input[name="searchQueryInput"]',
                 ]
                 
-                for sel in selectors:
+                for sel in input_selectors:
                     try:
                         search_input = await page.query_selector(sel)
                         if search_input:
-                            print(f"[Explorer] Found search input with: {sel}")
-                            break
+                            # Verify it's visible
+                            is_visible = await search_input.is_visible()
+                            if is_visible:
+                                print(f"[Explorer] Found search input with: {sel}")
+                                break
+                            else:
+                                search_input = None
                     except:
                         continue
                 
@@ -96,6 +137,10 @@ class InstagramExplorer:
                 print(f"[Explorer] Typing search query: #{keyword}")
                 await search_input.click()
                 await asyncio.sleep(0.5)
+                
+                # Clear any existing text first
+                await search_input.fill('')
+                await asyncio.sleep(0.2)
                 await search_input.fill(f'#{keyword}')
                 
                 # Wait for suggestion popup to appear
