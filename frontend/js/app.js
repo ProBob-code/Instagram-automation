@@ -3,8 +3,8 @@
  * Main JavaScript for Login & Core Functionality
  */
 
-// API Configuration
-const API_BASE = 'http://localhost:5000/api';
+// API Configuration - uses relative path for deployment flexibility
+const API_BASE = '/api';
 
 // ============================================
 // UTILITY FUNCTIONS
