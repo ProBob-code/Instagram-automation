@@ -1,24 +1,24 @@
 # -*- mode: python ; coding: utf-8 -*-
 """
 IG Growth Hub - PyInstaller Spec File
-Build with: pyinstaller ig_growth_hub.spec
+Build with: python -m PyInstaller ig_growth_hub.spec
 """
 
 import os
-import sys
-from pathlib import Path
 
 block_cipher = None
 
-# Get the directory containing this spec file
-SPEC_DIR = os.path.dirname(os.path.abspath(SPECPATH))
+# Use absolute path to project directory
+PROJECT_DIR = r'C:\Users\bajacob\.gemini\antigravity\scratch\Instagram automation builder'
 
 # Define data files to include
 datas = [
     # Frontend files
-    (os.path.join(SPEC_DIR, 'frontend'), 'frontend'),
-    # Data directory structure (empty)
-    (os.path.join(SPEC_DIR, 'data', 'target_hashtags.txt'), os.path.join('data')),
+    (os.path.join(PROJECT_DIR, 'frontend'), 'frontend'),
+    # Data directory structure
+    (os.path.join(PROJECT_DIR, 'data'), 'data'),
+    # Source code
+    (os.path.join(PROJECT_DIR, 'src'), 'src'),
 ]
 
 # Hidden imports that PyInstaller might miss
@@ -39,11 +39,12 @@ hidden_imports = [
     'groq',
     'rich',
     'click',
+    'waitress',
 ]
 
 a = Analysis(
-    ['desktop_app.py'],
-    pathex=[SPEC_DIR],
+    [os.path.join(PROJECT_DIR, 'desktop_app.py')],
+    pathex=[PROJECT_DIR],
     binaries=[],
     datas=datas,
     hiddenimports=hidden_imports,
