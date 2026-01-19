@@ -6,11 +6,12 @@ builder = "dockerfile"
 dockerfilePath = "Dockerfile"
 
 [deploy]
-startCommand = "gunicorn --bind 0.0.0.0:$PORT --workers 2 --threads 4 --timeout 120 app:app"
-healthcheckPath = "/health"
-healthcheckTimeout = 100
+# Let Dockerfile CMD handle the start command with proper PORT expansion
+# healthcheckPath = "/health"
+healthcheckTimeout = 120
 restartPolicyType = "on_failure"
 restartPolicyMaxRetries = 3
 
 [env]
 FLASK_ENV = "production"
+
