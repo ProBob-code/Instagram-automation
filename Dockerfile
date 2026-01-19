@@ -11,6 +11,7 @@ ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 ENV FLASK_ENV=production
 ENV PLAYWRIGHT_BROWSERS_PATH=/ms-playwright
+ENV PORT=5000
 
 # Copy requirements first for layer caching
 COPY requirements.txt .
@@ -26,14 +27,15 @@ RUN playwright install chromium
 COPY . .
 
 # Create data directories
-RUN mkdir -p /app/data/reports /app/data/profiles
+RUN mkdir -p /app/data/reports /app/data/profiles /app/data/sessions /app/data/tasks
 
-# Expose port
-EXPOSE 5000
+# Expose port (Railway overrides this via PORT env var)
+EXPOSE ${PORT}
 
-# Health check
-HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
-    CMD curl -f http://localhost:5000/health || exit 1
+# Health check using shell to expand PORT
+HEALTHCHECK --interval=30s --timeout=10s --start-period=10s --retries=3 \
+    CMD curl -f http://localhost:${PORT}/health || exit 1
 
-# Run with Gunicorn for production
-CMD ["gunicorn", "--bind", "0.0.0.0:5000", "--workers", "2", "--threads", "4", "--timeout", "120", "app:app"]
+# Run with Gunicorn - using shell form to expand $PORT variable
+CMD gunicorn --bind 0.0.0.0:${PORT:-5000} --workers 1 --threads 4 --timeout 120 app:app
+
