@@ -77,6 +77,17 @@ class InstagramAuth:
                 print("[Auth] 2FA verification required")
                 return False, "2FA_REQUIRED"
             
+            # Check for security/suspicious login popup (new device confirmation)
+            security_handled, security_msg = await self._check_and_handle_security_popup()
+            if security_msg == "SECURITY_CODE_REQUIRED":
+                print("[Auth] Instagram requires email/SMS verification code")
+                return False, "SECURITY_CODE_REQUIRED"
+            
+            if security_handled:
+                print(f"[Auth] Security popup handled: {security_msg}")
+                # Wait and check again
+                await asyncio.sleep(3)
+            
             # Check for error messages
             error = await self._check_login_error()
             if error:
@@ -88,6 +99,9 @@ class InstagramAuth:
             for _ in range(3):
                 await self._dismiss_popups()
                 await asyncio.sleep(1)
+            
+            # Also check for security popups again after dismissing other popups
+            await self._check_and_handle_security_popup()
             
             # Wait a bit more and check again
             await asyncio.sleep(2)
@@ -160,6 +174,97 @@ class InstagramAuth:
             return False
         except:
             return False
+    
+    async def _check_and_handle_security_popup(self) -> Tuple[bool, str]:
+        """
+        Check for and handle Instagram's security verification popups.
+        These appear when logging in from a new device/location.
+        Returns (handled, message) tuple.
+        """
+        page = self.browser.page
+        if not page:
+            return False, ""
+        
+        current_url = page.url
+        print(f"[Auth] Checking for security popups... URL: {current_url}")
+        
+        try:
+            # Check for "This Was Me" / "It Was Me" confirmation button
+            # This appears on the "suspicious login" page
+            this_was_me_selectors = [
+                'button:has-text("This Was Me")',
+                'button:has-text("It Was Me")',
+                'button:has-text("This was me")',
+                'button:has-text("It was me")',
+                '[role="button"]:has-text("This Was Me")',
+                '[role="button"]:has-text("It Was Me")',
+                'button:has-text("Yes, it")',  # "Yes, it's me"
+                'button:has-text("Confirm")',
+            ]
+            
+            for selector in this_was_me_selectors:
+                try:
+                    button = await page.query_selector(selector)
+                    if button and await button.is_visible():
+                        print(f"[Auth] Found security confirmation button: {selector}")
+                        await button.click()
+                        await asyncio.sleep(gaussian_delay(3, 1, 2, 5))
+                        print("[Auth] Clicked 'This Was Me' - security popup handled!")
+                        return True, "Security popup confirmed"
+                except:
+                    continue
+            
+            # Check for "Send security code" option and auto-click it
+            send_code_selectors = [
+                'button:has-text("Send Security Code")',
+                'button:has-text("Send Code")',
+                'button:has-text("Get a security code")',
+                '[role="button"]:has-text("Send")',
+            ]
+            
+            for selector in send_code_selectors:
+                try:
+                    button = await page.query_selector(selector)
+                    if button and await button.is_visible():
+                        print(f"[Auth] Found 'Send Code' button - Instagram wants email/SMS verification")
+                        # Don't auto-click this as it requires user to check email
+                        return False, "SECURITY_CODE_REQUIRED"
+                except:
+                    continue
+            
+            # Check for "Unusual login attempt" page via URL or text
+            unusual_login_indicators = [
+                'challenge',  # URL contains challenge
+                'suspicious',
+                'checkpoint',
+            ]
+            
+            for indicator in unusual_login_indicators:
+                if indicator in current_url.lower():
+                    # Try to find any confirmation button on the page
+                    continue_selectors = [
+                        'button[type="submit"]',
+                        'button:has-text("Continue")',
+                        'button:has-text("Next")',
+                        'button:has-text("OK")',
+                    ]
+                    
+                    for sel in continue_selectors:
+                        try:
+                            btn = await page.query_selector(sel)
+                            if btn and await btn.is_visible():
+                                print(f"[Auth] Found continue button on challenge page")
+                                await btn.click()
+                                await asyncio.sleep(3)
+                                return True, "Challenge page handled"
+                        except:
+                            continue
+            
+            return False, ""
+            
+        except Exception as e:
+            print(f"[Auth] Error checking security popup: {e}")
+            return False, ""
     
     async def submit_2fa_code(self, code: str) -> Tuple[bool, str]:
         """Submit 2FA verification code."""
